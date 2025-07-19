@@ -1,0 +1,228 @@
+.superhero{
+    margin-top: 20vh;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.introAnimation {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.chef {
+    position: fixed;
+    background-color: #fef9e7;
+    margin-top: 20vh;
+    height: 55vh;
+    width: 55vh;
+    z-index: 1100;
+}
+/*
+.cajaChef{
+     position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fef9e7;
+        z-index: 10;
+        opacity: 0;
+        pointer-events: none;
+}
+        */
+
+.hero-controls{
+    display: inline-flex;
+    align-items: center;
+}
+.titleSearch {
+    margin-left: 5vh;
+}
+.hero .Buscador{
+    height: 50px;
+    width: 800px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+.botonBuscar{
+    height: 55px;
+    width: 80px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.botonBuscar:hover{
+    background-color: aquamarine;
+    color: white;
+}
+.botonBuscar:active{
+    background-color: rgb(55, 148, 117);
+    color: white;
+}
+
+.clear{
+    height: 55px;
+    width: 80px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.clear:hover{
+    background-color: #edbb99;
+    color: white;
+}
+.clear:active{
+    background-color: #e59866;
+    color: white;
+}
+
+.resultados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 90%;
+    padding: 0 10   vh;
+    margin-top: 2vh;
+}
+.resultados h3 {
+    font-size: 2vh;
+}
+
+.imagenReceta {
+    height: 20vh;
+    width: 25vh;
+    border: 5px solid orange;
+    border-radius: 9px;
+}
+.receta {
+    text-align: center;
+}
+.receta h3{
+    max-width: 35vh;
+}
+
+.content{
+    background-color: #a9dfbf;
+    margin-top: 30vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    border-radius: 3px;
+    height: 100%;
+}
+.content h2{
+    padding-top: 20px;
+    margin: 20px;
+}
+
+
+.nutrientes{
+    background-color: #a9dfbf;
+    margin-top: 30vh;
+    margin-left: 10vh;
+    margin-bottom: 15vh;
+    margin-right: 10vh;
+    border-radius: 3px;
+    height: 100%;
+}
+.nutrientes h2{
+    padding-top: 3vh;
+    padding-left: 2vh;
+}
+
+.principalItems{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 9vh;
+    padding-bottom: 9vh;
+}
+.item1{
+    background-color: black;
+    height: 30vh;
+    width: 30vh;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 9px;
+    text-align: center;
+    transition: scale 0.3s ease;
+    cursor: pointer;
+}
+.item1:hover{
+    scale: 1.10;
+}
+
+.imagenCategory{
+    height: 20vh;
+    width: 30vh;
+    border-radius: 9px;
+}
+
+
+.seccionRecetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 2.5%;
+    margin-top: 8vh;
+}
+.nutrientesCaja {
+    text-align: center;
+}
+.nutrientesCaja h3{
+    max-width: 35vh;
+}
+.imagenNutriente {
+    height: 15vh;
+    width: 22vh;
+    border: 5px solid orange;
+    border-radius: 9px;
+}
+
+.buscadorProte{
+    height: 50px;
+    width: 375px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+
+.buscadorCarbs{
+    height: 50px;
+    width: 375px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+.numResultados{
+    height: 50px;
+    width: 375px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+
+
+.botonBuscar2{
+    height: 55px;
+    width: 80px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.botonBuscar2:hover{
+    background-color: aquamarine;
+    color: white;
+}
+.botonBuscar2:active{
+    background-color: rgb(55, 148, 117);
+    color: white;
+}
